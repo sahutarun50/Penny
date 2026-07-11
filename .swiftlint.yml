@@ -1,0 +1,87 @@
+# MARK: - Disabled Rules
+
+disabled_rules:
+  - line_length
+  - trailing_comma
+  - nesting
+  - trailing_newline
+  - opening_brace
+
+# MARK: - Opt-In Rules
+
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - first_where
+  - last_where
+  - redundant_nil_coalescing
+  - unused_import
+  - sorted_imports
+  - operator_usage_whitespace
+  - force_unwrapping
+  - force_cast
+  - force_try
+  - closure_spacing
+  - empty_string
+  - fatal_error_message
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+
+# MARK: - Identifier Names
+
+identifier_name:
+  min_length: 2
+  max_length: 40
+  excluded:
+    - id
+    - x
+    - y
+    - i
+
+type_name:
+  min_length: 3
+  max_length: 50
+
+# MARK: - File Length
+
+file_length:
+  warning: 400
+  error: 700
+
+# MARK: - Type Length
+
+type_body_length:
+  warning: 250
+  error: 400
+
+# MARK: - Function Length
+
+function_body_length:
+  warning: 40
+  error: 60
+
+# MARK: - Cyclomatic Complexity
+
+cyclomatic_complexity:
+  warning: 10
+  error: 15
+
+# MARK: - Force Rules
+
+force_cast: error
+force_try: error
+force_unwrapping: error
+
+# MARK: - TODO
+
+todo:
+  severity: warning
+
+# MARK: - Trailing Whitespace
+
+trailing_whitespace:
+  ignores_empty_lines: true
+
+# MARK: - Reporter
+
+reporter: "xcode"
