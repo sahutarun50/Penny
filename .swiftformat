@@ -1,0 +1,18 @@
+--swiftversion 6.0
+--indent 4
+--linebreaks lf
+--maxwidth none
+
+--commas inline
+--trimwhitespace always
+--self remove
+--semicolons never
+--hexliteralcase uppercase
+--decimalgrouping none
+--binarygrouping none
+--octalgrouping none
+--hexgrouping none
+
+--exclude Penny/Resources/Assets
+--exclude Penny.xcodeproj
+--exclude DerivedData

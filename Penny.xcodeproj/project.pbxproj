@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		85A27FBA3002E41E00024539 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 85A27FB93002E41E00024539 /* README.md */; };
+		85A27FBC3002E41F00024539 /* PROJECT.md in Resources */ = {isa = PBXBuildFile; fileRef = 85A27FBB3002E41F00024539 /* PROJECT.md */; };
+		85A27FBE3002E42000024539 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 85A27FBD3002E42000024539 /* CHANGELOG.md */; };
+		85A27FC03002E42100024539 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 85A27FBF3002E42100024539 /* LICENSE */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		859DE4313002D51F00A5FBEF /* Penny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A27FB93002E41E00024539 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		85A27FBB3002E41F00024539 /* PROJECT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROJECT.md; sourceTree = "<group>"; };
+		85A27FBD3002E42000024539 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		85A27FBF3002E42100024539 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +45,10 @@
 			children = (
 				859DE4333002D51F00A5FBEF /* Penny */,
 				859DE4323002D51F00A5FBEF /* Products */,
+				85A27FB93002E41E00024539 /* README.md */,
+				85A27FBB3002E41F00024539 /* PROJECT.md */,
+				85A27FBD3002E42000024539 /* CHANGELOG.md */,
+				85A27FBF3002E42100024539 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +124,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A27FBA3002E41E00024539 /* README.md in Resources */,
+				85A27FBC3002E41F00024539 /* PROJECT.md in Resources */,
+				85A27FBE3002E42000024539 /* CHANGELOG.md in Resources */,
+				85A27FC03002E42100024539 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
