@@ -7,23 +7,27 @@
 
 import SwiftUI
 
-struct AppShadow {
+struct AppShadowStyle {
+
     let color: Color
     let radius: CGFloat
     let x: CGFloat
     let y: CGFloat
+}
 
-    static let subtle = AppShadow(
+enum AppShadow {
+
+    static let card = AppShadowStyle(
         color: .black.opacity(0.08),
         radius: 8,
         x: 0,
-        y: 4
+        y: 2
     )
 
-    static let prominent = AppShadow(
-        color: .black.opacity(0.12),
-        radius: 16,
+    static let floating = AppShadowStyle(
+        color: .black.opacity(0.15),
+        radius: 12,
         x: 0,
-        y: 8
+        y: 6
     )
 }
