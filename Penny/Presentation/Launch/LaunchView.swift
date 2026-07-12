@@ -19,6 +19,44 @@ struct LaunchView: View {
     }
 }
 
+//#Preview {
+//    LaunchView()
+//}
+
+
+struct ColorPaletteView: View {
+    var body: some View {
+        ScrollView {
+            VStack(spacing: 16) {
+                ColorRow(title: "Primary", color: AppColors.primary)
+                ColorRow(title: "Secondary", color: AppColors.secondary)
+                ColorRow(title: "Income", color: AppColors.income)
+                ColorRow(title: "Expense", color: AppColors.expense)
+                ColorRow(title: "Surface", color: AppColors.surface)
+                ColorRow(title: "Background", color: AppColors.background)
+            }
+            .padding()
+        }
+    }
+}
+
+private struct ColorRow: View {
+    let title: String
+    let color: Color
+
+    var body: some View {
+        HStack {
+            RoundedRectangle(cornerRadius: 8)
+                .fill(color)
+                .frame(width: 60, height: 40)
+
+            Text(title)
+
+            Spacer()
+        }
+    }
+}
+
 #Preview {
-    LaunchView()
+    ColorPaletteView()
 }
