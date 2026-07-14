@@ -10,23 +10,24 @@ import SwiftUI
 /// Semantic colors used throughout the Penny application.
 enum AppColors {
 
-    static let primary = Color("Primary")
-    static let secondary = Color("Secondary")
+    static let primary = Color("Colors/Primary")
+    static let secondary = Color("Colors/Secondary")
 
-    static let background = Color("Background")
-    static let surface = Color("Surface")
+    static let onPrimary = Color("Colors/OnPrimary")
+    static let onSecondary = Color("Colors/OnSecondary")
 
-    static let income = Color("Income")
-    static let expense = Color("Expense")
+    static let background = Color("Colors/Background")
+    static let surface = Color("Colors/Surface")
 
-    static let success = Color("Success")
-    static let warning = Color("Warning")
-    static let error = Color("Error")
+    static let income = Color("Colors/Income")
+    static let expense = Color("Colors/Expense")
 
-    static let textPrimary = Color("TextPrimary")
-    static let textSecondary = Color("TextSecondary")
+    static let success = Color("Colors/Success")
+    static let warning = Color("Colors/Warning")
+    static let error = Color("Colors/Error")
 
-    static let divider = Color("Divider")
+    static let textPrimary = Color("Colors/TextPrimary")
+    static let textSecondary = Color("Colors/TextSecondary")
+
+    static let divider = Color("Colors/Divider")
 }
-
-
